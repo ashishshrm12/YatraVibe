@@ -1,0 +1,129 @@
+/* .header{ 
+    width: 100%;
+    height: 80px;
+    line-height: 80px;  
+}
+.logo img{
+    width: 30%;
+}
+.menu{
+    margin-bottom: 0;
+}
+.nav_item a{
+    color:var(--heading-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+} 
+.nav_item a:hover{
+    color: inherit;
+}
+.nav_item a.active__link{
+    color: var(--secondary-color);
+}
+
+.mobile_menu{
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+}
+
+.sticky_header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+} */
+/* Container */
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 150px; /* fixed logo width for better control */
+  }
+  
+  /* Navigation */
+  .menu {
+    margin-bottom: 0;
+  }
+  
+  .nav_item a {
+    color: var(--heading-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav_item a:hover {
+    color: var(--secondary-color);
+  }
+  
+  .nav_item a.active__link {
+    color: var(--secondary-color);
+  }
+  
+  /* Button Styling */
+  .nav_btns .btn {
+    padding: 0.5rem 1.4rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .nav_btns .btn a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .secondary_btn {
+    background-color: transparent;
+    color: var(--heading-color);
+    border: 2px solid var(--secondary-color);
+  }
+  
+  .primary_btn {
+    background-color: #ffb347; /* soft yellow-orange */
+    border-radius: 25px;
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .primary_btn:hover {
+    background-color: #ffa733;
+  }
+  
+  /* Mobile menu (hidden by default) */
+  .mobile_menu {
+    font-size: 1.5rem;
+    color: var(--heading-color);
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Sticky Header */
+  .sticky__header {
+    width:100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 3px 3px 8px -3px #ddd;
+  }
+
+  

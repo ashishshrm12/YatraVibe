@@ -1,0 +1,222 @@
+/* weather.css
+
+.weather__container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+  }
+  
+  .weather__container h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  .weather__form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather__form input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .weather__form input[type="text"]:focus {
+    outline: none;
+    border-color: #1abc9c;
+    box-shadow: 0 0 8px #1abc9c;
+  }
+  
+  .btn.primary__btn {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.primary__btn:hover {
+    background-color: #1abc9c;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .weather__result {
+    background-color: #ecf0f1;
+    padding: 15px 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .weather__result h3 {
+    margin-bottom: 10px;
+    color: #34495e;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .weather__result p {
+    margin: 6px 0;
+    font-size: 1rem;
+  }
+   */
+
+   /* ===== Body Reset (optional if using globally) ===== */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1500&q=80') no-repeat center center fixed;
+    background-size: cover;
+  } */
+  
+  /* ===== Weather Container ===== */
+  .weather__container {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 30px 35px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #333;
+    background: url('https://images.unsplash.com/photo-1535044243240-144dc3ae56a5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3Vuc2V0JTIwdHJhdmVsbGVyfGVufDB8fDB8fHww') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* ===== Header ===== */
+  .weather__container h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #2c3e50;
+    font-size: 1.8rem;
+  }
+  
+  /* ===== Form Styling ===== */
+  .weather__form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .weather__form input[type="text"] {
+    flex: 1 1 60%;
+    padding: 10px 15px;
+    border: 2px solid #2980b9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    min-width: 180px;
+  }
+  
+  .weather__form input[type="text"]:focus {
+    outline: none;
+    border-color: #1abc9c;
+    box-shadow: 0 0 8px rgba(26, 188, 156, 0.5);
+  }
+  
+  /* ===== Button ===== */
+  .btn.primary__btn {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn.primary__btn:hover {
+    background-color: #1abc9c;
+  }
+  
+  /* ===== Error Message ===== */
+  .error {
+    color: #e74c3c;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  /* ===== Weather Result Box ===== */
+  .weather__result {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .weather__result h3 {
+    margin-bottom: 10px;
+    color: #34495e;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  
+  .weather__result p {
+    margin: 6px 0;
+    font-size: 1rem;
+    color: #2c3e50;
+  }
+  
+  /* ===== Forecast Container (if used later) ===== */
+  .forecast__container {
+    margin-top: 25px;
+  }
+  .forecast__container h3{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #8ea0b2;
+    font-weight: 700;
+  }
+  
+  .forecast__grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .forecast__card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .forecast__card p {
+    margin: 4px 0;
+    font-size: 0.85rem;
+    color: #2c3e50;
+  }
+  
+  .forecast__card img {
+    width: 40px;
+    height: 40px;
+  }
+  
