@@ -40,7 +40,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
             <div>
-                <h6 className="mb-0 mt-3">John Doe</h6>
+                <h6 className="mb-0 mt-3">Arydeep Sah</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
             <div>
-                <h6 className="mb-0 mt-3">Laila</h6>
+                <h6 className="mb-0 mt-3">Payal</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -60,7 +60,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
             <div>
-                <h6 className="mb-0 mt-3">St. Snow</h6>
+                <h6 className="mb-0 mt-3">Harsh</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -70,7 +70,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava01} alt="" className="w-25 h-25 rounded-2" />
             <div>
-                <h6 className="mb-0 mt-3">John Doe</h6>
+                <h6 className="mb-0 mt-3">Arydeep Sah</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -80,7 +80,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava02} alt="" className="w-25 h-25 rounded-2" />
             <div>
-                <h6 className="mb-0 mt-3">Laila</h6>
+                <h6 className="mb-0 mt-3">Payal</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
@@ -90,7 +90,7 @@ const Testimonials = () => {
         <div className="d-flex align-items-center gap-4 mt-3">
             <img src={ava03} alt="" className="w-25 h-25 rounded-2" />
             <div>
-                <h6 className="mb-0 mt-3">St. Snow</h6>
+                <h6 className="mb-0 mt-3">Harsh</h6>
                 <p className="section__description">Customer</p>
             </div>
         </div>
